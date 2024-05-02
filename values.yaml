@@ -4,5 +4,10 @@ deployment:
   replicas: 1
   minReadySeconds: 0
 
+image:
+  registry: docker.io
+  repository: nginx
+  tag: latest
+
 serviceAccount:
   name: nginx
