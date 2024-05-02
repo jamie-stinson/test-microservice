@@ -4,6 +4,9 @@ deployment:
   replicas: 1
   minReadySeconds: 0
 
+container:
+  command: {}
+
 image:
   registry: docker.io
   repository: nginx
