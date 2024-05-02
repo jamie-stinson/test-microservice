@@ -5,4 +5,4 @@ version: 1.0.0
 dependencies:
 - name: common-helm-library
   version: 1.0.0
-  repository: https://jamie-stinson.github.io/common-helm-library/
+  repository: https://jamie-stinson.github.io/
