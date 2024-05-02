@@ -6,6 +6,10 @@ deployment:
 
 container:
   command: {}
+  requestMemory: 100Mi
+  limitMemory: 100Mi
+  requestCpu: 10M
+  limitCpu: 10m
 
 image:
   registry: docker.io
