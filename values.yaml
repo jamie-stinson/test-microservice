@@ -1,1 +1,8 @@
 name: nginx
+
+deployment:
+  replicas: 1
+  minReadySeconds: 0
+
+serviceAccount:
+  name: nginx
