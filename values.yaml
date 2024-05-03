@@ -19,7 +19,7 @@ image:
 serviceAccount:
   name: nginx
 
-probe:
+probes:
   startupProbe:
     enabled: false
   livenessProbe:
