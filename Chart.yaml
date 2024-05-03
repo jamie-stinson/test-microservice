@@ -2,6 +2,7 @@ apiVersion: v2
 description: A Helm chart
 name: nginx
 version: 1.0.0
+appVersion: 1.0.0
 dependencies:
 - name: common-helm-library
   version: ~1.0.0
