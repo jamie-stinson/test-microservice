@@ -18,3 +18,11 @@ image:
 
 serviceAccount:
   name: nginx
+
+probe:
+  startupProbe:
+    enabled: false
+  livenessProbe:
+    enabled: false
+  readinessProbe:
+    enabled: false
