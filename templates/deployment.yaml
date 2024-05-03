@@ -1,4 +1,3 @@
 # deployment.yaml
 
 {{- include "common-helm-library.deployment.tpl" . | nindent 0 }}
-{{- include "common-helm-library.serviceaccount" . | nindent 0 }}
