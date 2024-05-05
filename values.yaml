@@ -29,7 +29,7 @@ probes:
 
 service:
   type: ClusterIP
-  services:
+  ports:
     - name: jellyfin
       protocol: TCP
       port: 8096
