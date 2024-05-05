@@ -28,7 +28,7 @@ probes:
     enabled: false
 
 service:
-  enabled: true
+  type: ClusterIP
   loadbalancer:
     - name: jellyfin
       protocol: TCP
