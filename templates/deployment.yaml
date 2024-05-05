@@ -1,3 +1,0 @@
-# deployment.yaml
-
-{{- include "common-helm-library.deployment.tpl" . | nindent 0 }}
