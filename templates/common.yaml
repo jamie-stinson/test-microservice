@@ -1,1 +1,1 @@
-{{- include "common-helm-library.loader.all" . }}
+{{- include "common-helm-library.loader.all" $ }}
