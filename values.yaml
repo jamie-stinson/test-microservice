@@ -26,3 +26,13 @@ probes:
     enabled: false
   readinessProbe:
     enabled: false
+
+service:
+  enabled: true
+  loadbalancer:
+    - name: jellyfin
+      protocol: TCP
+      port: 8096
+    - name: nginx
+      protocol: TCP
+      port: 80
