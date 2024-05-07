@@ -42,3 +42,15 @@ storage:
 
 rbac:
   enabled: false
+
+
+securityContext:
+  readOnlyRootFilesystem: false
+  allowPrivilegeEscalation: true
+  capabilities: ["NET_RAW"]
+  privileged: true
+  fsGroup: 0
+  runAsUser: 0
+  runAsGroup: 0
+  runAsNonRoot: false
+  fsGroupChangePolicy: Always
