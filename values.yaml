@@ -36,3 +36,6 @@ service:
     - name: nginx
       protocol: TCP
       port: 80
+
+storage:
+  enabled: false
