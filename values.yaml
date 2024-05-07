@@ -39,3 +39,6 @@ service:
 
 storage:
   enabled: false
+
+rbac:
+  enabled: false
