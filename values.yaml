@@ -47,7 +47,8 @@ rbac:
 securityContext:
   readOnlyRootFilesystem: false
   allowPrivilegeEscalation: true
-  capabilities: ["NET_RAW"]
+  capabilities:
+  - NET_RAW
   privileged: true
   fsGroup: 0
   runAsUser: 0
